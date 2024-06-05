@@ -53,14 +53,17 @@
             // This is possible because the Savingccount class inherits from the BankAccount class.
             // This is an example of polymorphism, where an object can be treated as an instance of its base class.
 
-            BankAccount account1 = new Savingccount();
+            BankAccount account1 = new Savingccount("111");
 
-            account1.AccountNumber = "1111";
-            account1.Balance = 6000;
+            //account1.AccountNumber = "1111"; previnted
+
+            //account1.Balance = 6000; preveinted
+
 
             account1.Deposit(100);
             account1.Withdraw(1000);
 
+            Console.WriteLine(account1.AccountNumber);
             Console.ReadKey();
 
         }
