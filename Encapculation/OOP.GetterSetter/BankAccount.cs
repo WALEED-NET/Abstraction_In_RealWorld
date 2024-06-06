@@ -15,7 +15,10 @@ public class BankAccount
         if (!string.IsNullOrWhiteSpace(accNo))
         {
             Log("INVALID ACCOUNT NO");
+            return;
         }
+
+        _accNo = accNo;
     }
 
     public decimal GetBalance()
