@@ -47,26 +47,31 @@
          */
 
 
-        public static void Main(string[] args)
-        {
-            // Here we are creating an object of the Savingccount class and assigning it to the BankAccount type.
-            // This is possible because the Savingccount class inherits from the BankAccount class.
-            // This is an example of polymorphism, where an object can be treated as an instance of its base class.
+        //public static void Main(string[] args)
+        //{
+        //    // Here we are creating an object of the Savingccount class and assigning it to the BankAccount type.
+        //    // This is possible because the Savingccount class inherits from the BankAccount class.
+        //    // This is an example of polymorphism, where an object can be treated as an instance of its base class.
 
-            BankAccount account1 = new Savingccount("111");
+        //    //BankAccount account1 = new Savingccount("111");
 
-            //account1.AccountNumber = "1111"; previnted
+        //    ////account1.AccountNumber = "1111"; previnted
 
-            //account1.Balance = 6000; preveinted
+        //    ////account1.Balance = 6000; preveinted
 
 
-            account1.Deposit(100);
-            account1.Withdraw(1000);
+        //    //account1.Deposit(100);
+        //    //account1.Withdraw(1000);
 
-            Console.WriteLine(account1.AccountNumber);
-            Console.ReadKey();
+        //    //Console.WriteLine(account1.AccountNumber);
+        //    //Console.ReadKey();
 
-        }
+
+
+            
+
+
+        //}
 
     }
 }
